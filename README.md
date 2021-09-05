@@ -1,4 +1,5 @@
 # Double Letters
+
 Write a program in a single class called DoubleLetters that does the following:
 The program should read in a single line of text from the keyboard. It should then print to the console the same line of text with these changes: Letters should be doubled. Exclamation points (!) should be tripled. All other characters appear as they do in the input string.
 
@@ -28,6 +29,18 @@ note: concatenating a char onto a String requires that you add an empty String s
 
 Another approach: simply print the answer character by character as you traverse the input string.
 Hint:
-When is a character a letter? There is more than one way to tell. 
+When is a character a letter? There is more than one way to tell.
 
 Look up the Character class in the [Java API](https://docs.oracle.com/javase/7/docs/api/). There is a method that would be very helpful.
+
+## Tip: Scanner
+
+Use [Scanner](https://www.w3schools.com/java/java_user_input.asp) to read from the keyboard.
+
+If
+`scan`
+
+is a Scanner object, then
+`String inputStr = scan.nextLine();`
+
+will read an entire line from the keyboard, and copy it to the String inputStr.
