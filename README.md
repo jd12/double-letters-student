@@ -38,9 +38,9 @@ Look up the Character class in the [Java API](https://docs.oracle.com/javase/7/d
 Use [Scanner](https://www.w3schools.com/java/java_user_input.asp) to read from the keyboard.
 
 If
-`scan`
+`scanner`
 
 is a Scanner object, then
-`String inputStr = scan.nextLine();`
+`String inputStr = scanner.nextLine();`
 
 will read an entire line from the keyboard, and copy it to the String inputStr.
