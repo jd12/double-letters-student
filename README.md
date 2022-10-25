@@ -31,7 +31,7 @@ Another approach: simply print the answer character by character as you traverse
 Hint:
 When is a character a letter? There is more than one way to tell.
 
-Look up the Character class in the [Java API](https://docs.oracle.com/javase/7/docs/api/). There is a method that would be very helpful.
+Look up the Character class in the [Java API](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html). There is a method that will be very helpful.
 
 ## Tip: Scanner
 
